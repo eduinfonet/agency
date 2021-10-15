@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bulma.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>My first Website using Bulma.CSS</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="assets/images/logo.png" alt="" width="" height="" />
+          </a>
+          <div
+            class="navbar-burger"
+            data-target="navbarExampleTransparentExample"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item active" href="index.html"> Home </a>
+            <a class="navbar-item" href="about-us.html"> About Us </a>
+            <a class="navbar-item" href="pricing.html"> Pricing </a>
+            <a class="navbar-item" href="contact-us.html"> Contact Us </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="services.html"> Services </a>
+              <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item" href="services.html#web-design">
+                  Web Design
+                </a>
+                <a class="navbar-item" href="services.html#web-development">
+                  Web Development
+                </a>
+                <a class="navbar-item" href="services.html#psd-html">
+                  PSD to HTML
+                </a>
+                <a class="navbar-item" href="services.html"> HTML to React </a>
+                <a class="navbar-item" href="services.html#mern-stack">
+                  MERN Stack Development
+                </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item" href="services.html"> Graphic Design </a>
+                <a class="navbar-item" href="services.html"> Motion Graphic </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped">
+                <p class="control">
+                  <a class="bd-tw-button button" href="login.html">
+                    <span class="icon">
+                      <i class="fas fa-sign-in-alt"></i>
+                    </span>
+                    <span> Login / Sign Up </span>
+                  </a>
+                </p>
+                <p class="control">
+                  <a class="button is-primary" href="#">
+                    <span class="icon">
+                      <i class="fas fa-donate"></i>
+                    </span>
+                    <span>Donate</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Header Section -->
+    <section class="has-background-grey-lighter">
+      <div class="container header">
+        <h1
+          class="
+            header-text
+            is-flex is-justify-content-center is-align-items-center
+          "
+        >
+          The best Web Development Agency in BD.
+        </h1>
+        <br />
+        <a class="button is-primary is-large is-fullwidth" href="services.html">
+          <span class="icon">
+            <i class="fas fa-hand-point-right"></i>
+          </span>
+          <span>Check It Out</span>
+        </a>
+        <br />
+      </div>
+    </section>
+    <!-- About Us -->
+    <section>
+      <div class="container">
+        <h1 class="title is-underlined is-flex is-justify-content-center m-6">
+          About Us
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <img src="assets/images/Digital-Agency.webp" alt="" />
+          </div>
+          <div class="column">
+            <h1 class="is-size-4 is-flex is-justify-content-center">
+              This is heading
+            </h1>
+            <hr />
+            <p class="has-text-justified">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus quidem quo dicta commodi, eius animi inventore
+              dignissimos libero laudantium laborum, dolores quam voluptate
+              necessitatibus dolor rem est minus quae reprehenderit velit ad
+              pariatur eum deserunt doloremque. Ratione amet quo natus.
+            </p>
+            <br />
+            <p class="has-text-justified">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus quidem quo dicta commodi, eius animi inventore
+              dignissimos libero laudantium laborum,
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Commitment -->
+    <section class="has-background-grey-lighter">
+      <div class="container">
+        <h1
+          class="title is-underlined is-flex is-justify-content-center m-6 pt-6"
+        >
+          Our Commitments
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <h1 class="is-size-4 is-flex is-justify-content-center">
+              This is heading
+            </h1>
+            <hr />
+            <p class="has-text-justified">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus quidem quo dicta commodi, eius animi inventore
+              dignissimos libero laudantium laborum, dolores quam voluptate
+              necessitatibus dolor rem est minus quae reprehenderit velit ad
+              pariatur eum deserunt doloremque. Ratione amet quo natus.
+            </p>
+            <br />
+            <p class="has-text-justified">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus quidem quo dicta commodi, eius animi inventore
+              dignissimos libero laudantium laborum,
+            </p>
+          </div>
+          <div class="column">
+            <img src="assets/images/social-media-marketing-agency.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Goal -->
+    <section>
+      <div class="container">
+        <h1 class="title is-underlined is-flex is-justify-content-center m-6">
+          Our Goals
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <h1 class="is-size-4">
+              <span class="icon"> <i class="fas fa-smile"></i> </span> 100%
+              Client Satisfaction
+            </h1>
+            <br />
+            <p class="has-text-justified">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+              voluptatem commodi expedita provident omnis quas natus minus nemo
+              fuga quae.Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Corrupti voluptatem commodi expedita provident omnis quas
+              natus minus nemo fuga quae.
+            </p>
+          </div>
+          <div class="column box">
+            <h1 class="is-size-4">
+              <span class="icon"> <i class="fas fa-hands"></i> </span> Delivery
+              On Time
+            </h1>
+            <br />
+            <p class="has-text-justified">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+              voluptatem commodi expedita provident omnis quas natus minus nemo
+              fuga quae.Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Corrupti voluptatem commodi expedita provident omnis quas
+              natus minus nemo fuga quae.
+            </p>
+          </div>
+          <div class="column">
+            <h1 class="is-size-4">
+              <span class="icon"> <i class="fas fa-glasses"></i> </span>
+              Unlimited Revision
+            </h1>
+            <br />
+            <p class="has-text-justified">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+              voluptatem commodi expedita provident omnis quas natus minus nemo
+              fuga quae.Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Corrupti voluptatem commodi expedita provident omnis quas
+              natus minus nemo fuga quae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Achievement -->
+    <section class="has-background-grey-lighter">
+      <div class="container">
+        <h1
+          class="title is-underlined is-flex is-justify-content-center m-6 pt-6"
+        >
+          Our Achievements
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <h1 class="is-size-4">
+              <span class="icon"> <i class="fas fa-medal"></i> </span>
+              Fundamentals of Web Development
+            </h1>
+            <hr />
+            <p class="has-text-justified">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              numquam optio hic reprehenderit eum. Laborum cumque fugiat iste
+              assumenda reprehenderit impedit cupiditate quisquam autem? Earum
+              natus enim possimus hic ratione.
+            </p>
+          </div>
+          <div class="column">
+            <h1 class="is-size-4">
+              <span class="icon"> <i class="fas fa-medal"></i> </span>
+              MERN Stack Development
+            </h1>
+            <hr />
+            <p class="has-text-justified">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              numquam optio hic reprehenderit eum. Laborum cumque fugiat iste
+              assumenda reprehenderit impedit cupiditate quisquam autem? Earum
+              natus enim possimus hic ratione.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="columns">
+          <div class="column">
+            <h1 class="is-size-4">
+              <span class="icon"> <i class="fas fa-medal"></i> </span>
+              Graphic Design
+            </h1>
+            <hr />
+            <p class="has-text-justified pb-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              numquam optio hic reprehenderit eum. Laborum cumque fugiat iste
+              assumenda reprehenderit impedit cupiditate quisquam autem? Earum
+              natus enim possimus hic ratione.
+            </p>
+          </div>
+          <div class="column">
+            <h1 class="is-size-4">
+              <span class="icon"> <i class="fas fa-medal"></i> </span>
+              Motion Graphic
+            </h1>
+            <hr />
+            <p class="has-text-justified pb-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              numquam optio hic reprehenderit eum. Laborum cumque fugiat iste
+              assumenda reprehenderit impedit cupiditate quisquam autem? Earum
+              natus enim possimus hic ratione.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team -->
+    <section>
+      <div class="container">
+        <h1 class="title is-underlined is-flex is-justify-content-center m-6">
+          Our Team
+        </h1>
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="assets/images/avatar.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br />
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br />
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2022</time>
+                  <br />
+                  <br />
+                  <a class="button is-primary" href="#">
+                    <span class="icon">
+                      <i class="fas fa-id-card"></i>
+                    </span>
+                    <span>Contact</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="assets/images/avatar.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Shahidul Islam Khan</p>
+                    <p class="subtitle is-6">@skhan715</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br />
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br />
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2022</time>
+                  <br />
+                  <br />
+                  <a class="button is-primary" href="#">
+                    <span class="icon">
+                      <i class="fas fa-id-card"></i>
+                    </span>
+                    <span>Contact</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="assets/images/avatar.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Samiul Alim Khan</p>
+                    <p class="subtitle is-6">@samiul</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br />
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br />
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2022</time>
+                  <br />
+                  <br />
+                  <a class="button is-primary" href="#">
+                    <span class="icon">
+                      <i class="fas fa-id-card"></i>
+                    </span>
+                    <span>Contact</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reviews -->
+    <section class="has-background-grey-lighter">
+      <div class="container">
+        <h1
+          class="title is-underlined is-flex is-justify-content-center m-6 pt-6"
+        >
+          Customer Reviews
+        </h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="assets/images/avatar.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Doe</p>
+                      <p class="subtitle is-6">@johnDoe</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <p class="has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                      Phasellus ne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="m-6">
+      <h1 class="has-text-centered is-size-5">All rights reserved.</h1>
+      <hr />
+      <p class="has-text-centered is-size-4 has-text-info">
+        Created by ❤️ Samiul Alim Khan.
+      </p>
+    </footer>
+    <!-- js -->
+    <script src="assets/js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+      });
+    </script>
+  </body>
+</html>

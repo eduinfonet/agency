@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/bulma.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>Login / Sign Up || Web Development Agency</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="assets/images/logo.png" />
+          </a>
+          <div
+            class="navbar-burger"
+            data-target="navbarExampleTransparentExample"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html"> Home </a>
+            <a class="navbar-item" href="about-us.html"> About Us </a>
+            <a class="navbar-item" href="pricing.html"> Pricing </a>
+            <a class="navbar-item" href="contact-us.html"> Contact Us </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="services.html"> Services </a>
+              <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item" href="services.html#web-design">
+                  Web Design
+                </a>
+                <a class="navbar-item" href="services.html#web-development">
+                  Web Development
+                </a>
+                <a class="navbar-item" href="services.html#psd-html">
+                  PSD to HTML
+                </a>
+                <a class="navbar-item" href="services.html"> HTML to React </a>
+                <a class="navbar-item" href="services.html#mern-stack">
+                  MERN Stack Development
+                </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item" href="services.html"> Graphic Design </a>
+                <a class="navbar-item" href="services.html"> Motion Graphic </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped">
+                <p class="control">
+                  <a class="bd-tw-button button active" href="login.html">
+                    <span class="icon">
+                      <i class="fas fa-sign-in-alt"></i>
+                    </span>
+                    <span> Login / Sign Up </span>
+                  </a>
+                </p>
+                <p class="control">
+                  <a class="button is-primary" href="#">
+                    <span class="icon">
+                      <i class="fas fa-donate"></i>
+                    </span>
+                    <span>Donate</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Header Section -->
+    <section class="has-background-grey-lighter">
+      <div class="container header-about-us">
+        <h1
+          class="
+            header-text-about-us
+            is-flex is-justify-content-center is-align-items-center
+          "
+        >
+          Login / Sign Up
+        </h1>
+        <br />
+        <br />
+      </div>
+    </section>
+    <!-- Main -->
+    <section>
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title mt-6">Login</h1>
+            <div class="field">
+              <label class="label">Username or Email *</label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Username or Email"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Password *</label>
+              <div class="control">
+                <input class="input" type="password" placeholder="Password" />
+              </div>
+            </div>
+            <div class="control">
+              <button class="button is-primary">Login</button>
+            </div>
+          </div>
+          <div class="column">
+            <h1 class="title mt-6">Don't have an account? Sign Up</h1>
+            <div class="field">
+              <label class="label">Email *</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Email" />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Username *</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Username" />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Mobile</label>
+              <div class="control">
+                <input class="input" type="number" placeholder="Mobile" />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Password *</label>
+              <div class="control">
+                <input class="input" type="password" placeholder="Password" />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Re-type your Password *</label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="password"
+                  placeholder="Re-type your Password Password"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                  I agree to the <a href="#">terms and conditions</a>
+                </label>
+              </div>
+            </div>
+            <div class="control">
+              <button class="button is-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <!-- Footer -->
+    <footer class="has-background-grey-lighter">
+      <h1 class="has-text-centered is-size-5 pt-5">All rights reserved.</h1>
+      <hr />
+      <p class="has-text-centered is-size-4 has-text-info pb-5">
+        Created by ❤️ Samiul Alim Khan.
+      </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

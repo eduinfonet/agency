@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+/* Home */
+/* Navbar */
+
+.navbar-item {
+  font-size: 20px;
+  transition: 0.2s;
+}
+.navbar-item:hover {
+  border: 5px solid #00d1b2;
+  border-radius: 3px;
+}
+.active {
+  border: 5px solid #00d1b2;
+  border-radius: 3px;
+}
+/* Header Section */
+.header-text {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 51px;
+  padding-top: 200px;
+  background-image: url(/assets/images/css-image.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.header {
+  padding-bottom: 200px;
+}
+
+/* Swiper Js */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: auto;
+}
+
+/* About Us */
+.header-text-about-us {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 51px;
+  padding-top: 100px;
+  background-image: url(/assets/images/css-image.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.header-about-us {
+  padding-bottom: 50px;
+}
+
+/* Custom Scroll bar */
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00d1b2;
+}
